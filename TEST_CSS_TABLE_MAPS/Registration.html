@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registration</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="registration.css">
+    </head>
+    <body>
+      
+        <h1 style="text-align: center" > Registration Form</h1>
+        <form action="show_data.html" method="GET" > 
+            <div style="margin-bottom: 15px;" >
+            <label>
+            Player’s First Name:
+            <input style="width: 30%" type="text" name="firstname">
+            </label> 
+            Last Name:
+            <input style="width: 30%" type="text" name="lastname">
+            </div>
+            <div style="margin-bottom: 15px;" >
+            Address:
+            <input style="width: 89%" type="text" name="streetaddress">
+            </div>
+            <div style="margin-bottom: 15px;" >
+            City:
+            <input style="width: 40%" type="text" name="city">
+            
+            Zip Code:
+            <input style="width: 40%" type="text" name="zipcode">
+            </div>
+            <div style="margin-bottom: 15px;" >
+            <div class="birth-gender">
+            Birth Date(mm/dd/yyyy):
+            <input style="width: 35%" type="text" name="birthdate">
+            
+            Gender:
+            <input type="radio" name="gender" value="Female">Female
+            <input type="radio" name="gender" value="Male">Male
+            </div>        
+            </div>
+            
+            <div class="grade" >
+            Grade:
+            <input type="radio" name="grade" value="Pre-School"> Pre-School
+            <div style="font-size: 75%" >
+            <input class="one" type="radio" name="grade" value="1st"> 1st
+            <input class="two" type="radio" name="grade" value="2nd"> 2nd
+            <input class="three" type="radio" name="grade" value="3rd"> 3rd
+            <input class="four" type="radio" name="grade" value="4th"> 4th
+            <input class="five" type="radio" name="grade" value="5th"> 5th
+            </div>
+            </div>
+       
+        
+    
+    
+        <h3 style="margin-top: 50px">Which elementary school do you live near?</h3>
+        
+            
+            <b>Closest School:</b><br><br>
+            <select class="school" name="School" multiple>
+                <option value="AJ Katzenmaier" selected>AJ Katzenmaier</option>
+                <option value="Greenbay">Greenbay</option>
+                <option value="Howard A Yeager">Howard A Yeager</option>
+                <option value="Marjorie P Hart">Marjorie P Hart</option>
+                <option value="North Elementary">North Elementary</option>
+                <option value="South Elementary">South Elementary</option>
+              </select>
+              <p style="font-size: 85%">*Hold down the Shift key while clicking to choose multiple options.</p>
+              
+            
+        
+        <h3 style="margin-top: 50px">What position(s) do you normally play? (check all that apply)</h3>
+        
+            <label style="margin-right: 78px">
+            <input type="checkbox" name="position" value="Forward" > Forward
+            </label>
+            <input type="checkbox" name="position" value="Midfield" > Midfield<br><br>
+            <label style="margin-right: 81px">
+            <input type="checkbox" name="position" value="Defense"> Defense
+            </label>
+            <input type="checkbox" name="position" value="Goalkeeper"> Goalkeeper<br>
+            
+        
+        <h3 style="margin-top: 50px">Uniform Size:</h3>
+        
+            <label style="margin-right: 78px">  
+            <input type="radio" name="uniform" value="Youth Small"> Youth Small
+            </label>    
+            <input type="radio" name="uniform" value="Medium"> Medium<br><br>
+            <label style="margin-right: 58px"> 
+            <input type="radio" name="uniform" value="Youth Medium "> Youth Medium 
+            </label>    
+            <input type="radio" name="uniform" value="Large"> Large<br><br>
+            <label style="margin-right: 78px">
+            <input type="radio" name="uniform" value="Youth Large"> Youth Large
+            </label>    
+            <input type="radio" name="uniform" value="Extra-Large"> Extra-Large<br><br>
+            <input type="radio" name="uniform" value="Small"> Small
+           
+        
+        <h4 style="margin-top: 50px">Permission to Play</h4>
+        <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of
+                the Northside Youth Soccer League (NYSL). In recognizing the possibility of physical injury associated with
+                soccer and in consideration for the “League” accepting the registrant for its soccer programs and activities,
+                I hereby release, discharge, and/or otherwise indemnify NYSL, their employees and associated personnel
+                and volunteers,including the facilities used for practices and games, against any claim by or on behalf of
+                the registrant as a result of the registrant’s participation in the programand/orbeing transported to or from
+                NYSL sponsored activities,which transportation
+                </p>
+                <p>By entering your name below, I herebyagree andauthorizethe above.In addition, by signing below, Ialso acknowledge
+                    that I have read the cancellation policy and agree to its terms.</p>
+                
+                    <div class="parents" >
+                    Parent/GuardianSignature:    
+                    <input style="width: 35%" type="text" name="signature">
+                    Date:   
+                    <input style="width: 35%" type="text" name="date">
+                    </div><br>
+                    <input class="submit" type="submit" value="Submit">
+                </form>    
+
+
+
+
+
+   
+    
+
+
+
+    </body>
+
+
+
+
+
+
+</html>

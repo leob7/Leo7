@@ -1,0 +1,46 @@
+
+h1{
+    text-align: center;
+}  
+
+body{
+    width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0px;
+}    
+
+.fall{
+    font-size: 130%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.games{
+    text-decoration: underline;
+    
+}
+article{
+    display: flex;
+}
+p{
+    font-size: 120%;
+    margin-left: 8px;
+}
+th, td{
+    font-size: 120%;
+    width: 205px;
+    padding: 5px;
+}
+
+
+th{
+    text-align: initial;
+}
+section{
+    display: flex;
+    
+}
+
+table{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

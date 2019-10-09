@@ -1,0 +1,67 @@
+body{
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0px;
+    font-size: 120%;
+    
+}
+body{
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:0px;
+    font-size: 120%;
+}
+input[type=text]{
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.birth-gender{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grade{
+    display: flex;
+    justify-content: flex-start;
+    
+    
+}
+.one{
+    margin-left: 30px;
+    
+}
+.two{
+    margin-left: 30px;
+
+}
+.three{
+    margin-left: 30px;
+}
+.four{
+    margin-left: 30px;
+}
+.five{
+    margin-left: 30px;
+}
+
+.parents{
+    display: flex;
+    justify-content: space-between;
+}
+.submit{
+    padding:15px 30px; 
+    border: 0px black;
+    cursor:pointer; 
+}
+
+
+
+
+
+
+    
+
